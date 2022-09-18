@@ -1,19 +1,19 @@
-@prefix : <http://www.semanticweb.org/bruno/ontologies/2022/8/untitled-ontology-4#> .
+@prefix : <https://raw.githubusercontent.com/bruno-szdl/example_ont_companies/main/companyB.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://www.semanticweb.org/bruno/ontologies/2022/8/untitled-ontology-4> .
+@base <https://raw.githubusercontent.com/bruno-szdl/example_ont_companies/main/companyB.owl> .
 
-<http://www.semanticweb.org/bruno/ontologies/2022/8/untitled-ontology-4> rdf:type owl:Ontology ;
+<https://raw.githubusercontent.com/bruno-szdl/example_ont_companies/main/companyB.owl> rdf:type owl:Ontology ;
                                                                           owl:imports <https://saref.etsi.org/core/v3.1.1/> .
 
 #################################################################
 #    Classes
 #################################################################
 
-###  http://www.semanticweb.org/bruno/ontologies/2022/8/untitled-ontology-4#lightToggle
+###  https://raw.githubusercontent.com/bruno-szdl/example_ont_companies/main/companyB.owl#lightToggle
 :lightToggle rdf:type owl:Class ;
              rdfs:subClassOf <https://saref.etsi.org/core/ToggleCommand> .
 
